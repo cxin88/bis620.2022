@@ -2,7 +2,7 @@
 title: "DS^3 2022-10-23"
 format: html
 ---
-
+#class agenda not project
 0. Thursday class.
 1. Review of R our `bis620.2022` package.
 2. A look at an accelerometry data set synthesized from UKBiobank.

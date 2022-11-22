@@ -54,7 +54,7 @@ ukb_accel
 
 One function of this package is spectral_signature, which gets the
 spectral signature of the dataset. Here is a brief example of what the
-function looks like when used on the ukb_accel. dataset.
+function looks like when used on the ukb_accel dataset.
 
 ``` r
 spectral_signature(ukb_accel[1:500, ])

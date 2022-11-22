@@ -39,7 +39,7 @@ library('bis620.2022')
 data(ukb_accel)
 ukb_accel
 ```
-One function of this package is spectral_signature, which gets the spectral signature of the dataset. Here is a brief example of what the function looks like when used on the ukb_accel. dataset.
+One function of this package is spectral_signature, which gets the spectral signature of the dataset. Here is a brief example of what the function looks like when used on the ukb_accel dataset.
 ```{r example2}
 spectral_signature(ukb_accel[1:500, ])
 ```
