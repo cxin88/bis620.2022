@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 [![R-CMD-check](https://github.com/cxin88/bis620.2022/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/cxin88/bis620.2022/actions/workflows/R-CMD-check.yaml)
 [![lint](https://github.com/cxin88/bis620.2022/actions/workflows/lint.yaml/badge.svg)](https://github.com/cxin88/bis620.2022/actions/workflows/lint.yaml)
 [![test-coverage](https://github.com/cxin88/bis620.2022/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/cxin88/bis620.2022/actions/workflows/test-coverage.yaml)
+[![codecov](https://codecov.io/gh/cxin88/bis620.2022/branch/master/graph/badge.svg?token=0YK0U2R5W3)](https://codecov.io/gh/cxin88/bis620.2022)
 
 
 ## Installation
