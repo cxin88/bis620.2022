@@ -34,5 +34,3 @@ test_that(
     vdiffr::expect_doppelganger("first-100-samples", p)
   }
 )
-
-

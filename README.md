@@ -17,19 +17,19 @@ You can install the development version of bis620.2022 from
 ## Description with examples
 
 The bis620.2022 package is a new package in R, created for the BIS620
-class. To use this package, you need to use the “usethis”, and
-“devtools” packages. This package mainly works with the Synthesized
-UKBiobank Accelerometry Data, where it includes the time measurement,
-and the acceleration in the XY and Z direction; this dataset is called
+class. To use this package, you need to use the usethis, and devtools
+packages. This package mainly works with the Synthesized UKBiobank
+Accelerometry Data, where it includes the time measurement, and the
+acceleration in the XY and Z direction; this dataset is called
 “ukb_accel”. Here is a sneak peak at the dataset:
 
 ``` r
-library("usethis")
-library("devtools")
+library('usethis')
+library('devtools')
 document()
 #> ℹ Updating bis620.2022 documentation
 #> ℹ Loading bis620.2022
-library("bis620.2022")
+library('bis620.2022')
 data(ukb_accel)
 ukb_accel
 #> # A tibble: 1,080,000 × 4
@@ -48,9 +48,9 @@ ukb_accel
 #> # … with 1,079,990 more rows
 ```
 
-One function of this package is “spectral_signature” which gets the
+One function of this package is spectral_signature, which gets the
 spectral signature of the dataset. Here is a brief example of what the
-functino looks like when used on the “ukb_accel” dataset.
+function looks like when used on the ukb_accel. dataset.
 
 ``` r
 spectral_signature(ukb_accel[1:500, ])
@@ -70,11 +70,11 @@ spectral_signature(ukb_accel[1:500, ])
 #> # … with 240 more rows
 ```
 
-The “accel_plot” is another function in this package. This function is
+The accel_plot is another function in this package. This function is
 supposed to return a time-series function from the data. Due to its
-time-series output, this function requires either a “time” input column
-or a “frequency” column. Here is an example of the “accel_plot” function
-on the ukb_accel dataset (with time), and also an example of it with the
+time-series output, this function requires either a time input column or
+a frequency column. Here is an example of the accel_plot function on the
+ukb_accel dataset (with time), and also an example of it with the
 spectral_signature function applied (with frequency).
 
 ``` r
@@ -83,3 +83,11 @@ ukb_accel[1:500, ] |>
 ```
 
 <img src="man/figures/README-example3-1.png" width="100%" />
+
+``` r
+ukb_accel[1:50, ] |>
+  spectral_signature() |>
+  accel_plot()
+```
+
+<img src="man/figures/README-example3-2.png" width="100%" />
