@@ -28,6 +28,7 @@ You can install the development version of bis620.2022 from [GitHub](https://git
   `install.packages("devtools")` <br>
   `devtools::install_github("cxin88/bis620.2022")`
 
+
 ## Description with examples
 The bis620.2022 package is a new package in R, created for the BIS620 class. To use this package, you need to use the usethis, and devtools packages. This package mainly works with the Synthesized UKBiobank Accelerometry Data, where it includes the time measurement, and the acceleration in the XY and Z direction; this dataset is called "ukb_accel". Here is a sneak peak at the dataset:
 ```{r example}
