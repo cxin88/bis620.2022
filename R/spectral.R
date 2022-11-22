@@ -35,4 +35,4 @@ spectral_signature <- function(x, take_log = FALSE, inverse = TRUE) {
 }
 
 #' @export
-spec_sig <- spectral_signature #new one
+spec_sig <- spectral_signature
