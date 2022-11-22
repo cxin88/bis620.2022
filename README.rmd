@@ -49,10 +49,10 @@ The "accel_plot" is another function in this package. This function is supposed 
 ```{r example3}
 ukb_accel[1:500, ] |>
   accel_plot()
+```
 
-
+```{r example4}
 ukb_accel[1:50, ] |>
   spectral_signature() |>
   accel_plot()
-
 ```

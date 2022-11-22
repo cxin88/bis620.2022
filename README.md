@@ -85,11 +85,9 @@ ukb_accel[1:500, ] |>
 <img src="man/figures/README-example3-1.png" width="100%" />
 
 ``` r
-
-
 ukb_accel[1:50, ] |>
   spectral_signature() |>
   accel_plot()
 ```
 
-<img src="man/figures/README-example3-2.png" width="100%" />
+<img src="man/figures/README-example4-1.png" width="100%" />
